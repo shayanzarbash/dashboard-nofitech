@@ -28,5 +28,8 @@ The project has been structured to move towards a **Clean Architecture**, with s
 - API and data fetching logic (`/services/queries`)  
 - Utilities and hooks (`/hooks`)  
 
-The goal of this approach is to maintain **modularity, readability, and scalability**, making it easier to extend or maintain the project in the future.  
-All project requirements, including login, user list, user details, editable table with pagination, and user logs, have been implemented inside the project while following this architecture.
+### Decision to choose a library and architecture:
+- **Tailwind CSS** was used for styling due to the small size of the project and the simplicity of the UI design.  
+- **Zustand** was chosen for state management because of the simple project structure; it provides a lightweight and easy way to handle global state.  
+- The project follows a **Clean Architecture approach** as much as possible, while also keeping a simple structure suitable for small projects.  
+- **React Hook Form** was used for handling the login form, including built-in validation, which made form management straightforward and efficient.
