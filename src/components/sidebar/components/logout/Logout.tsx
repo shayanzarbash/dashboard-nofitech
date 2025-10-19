@@ -13,7 +13,7 @@ export default function Logout() {
         <div className="flex justify-center items-center">
             <button
                 onClick={handleLogout}
-                className="flex items-center gap-2 p-3 text-left hover:bg-gray-700 border-t border-gray-700 w-[210px] mb-4"
+                className="flex items-center gap-2 bg-gray-500 p-3 text-left hover:bg-gray-700 border-t border-gray-700 w-[210px] mb-4"
             >
                 Logout
             </button>

@@ -24,7 +24,7 @@ export default function UserDetailPage() {
         <div className="p-6">
             <div className="flex justify-between">
                 <h2 className=" text-black text-xl font-semibold mb-4">{user.name}</h2>
-                <button onClick={handleBackCLick}>back to list</button>
+                <button className=" bg-gray-900" onClick={handleBackCLick}>back to list</button>
             </div>
             <p className="text-black"><strong>Email:</strong> {user.email}</p>
             <p className="text-black"><strong>Username:</strong> {user.username}</p>

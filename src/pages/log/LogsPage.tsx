@@ -63,7 +63,7 @@ export default function LogsPage() {
                 <button
                     onClick={handlePrevPage}
                     disabled={currentPage === 1}
-                    className="px-4 py-1 text-white bg-gray-200 rounded disabled:opacity-50"
+                    className="px-4 py-1 text-white bg-gray-900 rounded disabled:opacity-50"
                 >
                     Prev
                 </button>
@@ -73,7 +73,7 @@ export default function LogsPage() {
                 <button
                     onClick={handleNextPage}
                     disabled={currentPage === totalPages}
-                    className="px-4 py-1 text-white bg-gray-200 rounded disabled:opacity-50"
+                    className="px-4 py-1 text-white bg-gray-900 rounded disabled:opacity-50"
                 >
                     Next
                 </button>
