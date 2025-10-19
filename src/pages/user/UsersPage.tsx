@@ -113,21 +113,21 @@ export default function UsersPage() {
                     <div>
                         {isEditing ? (
                             <button
-                                className="text-white mr-2"
+                                className="text-white mr-2 bg-green-700"
                                 onClick={() => handleSave(user.id)}
                             >
                                 Save
                             </button>
                         ) : (
                             <button
-                                className="text-white mr-2"
+                                className="text-white mr-2 bg-blue-500"
                                 onClick={() => handleEdit(user)}
                             >
                                 Edit
                             </button>
                         )}
                         <button
-                            className="text-white"
+                            className="text-white bg-red-700"
                             onClick={() => handleDelete(user.id)}
                         >
                             Delete

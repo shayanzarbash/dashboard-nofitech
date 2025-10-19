@@ -1,9 +1,9 @@
 import {useForm} from "react-hook-form";
 import {useNavigate} from "react-router-dom";
+import toast, {Toaster} from "react-hot-toast";
 import {useLogStore} from "../../store/log.store.ts";
 import {useAuthStore} from "../../store/auth.store.ts";
 import type {LoginFormInputs} from "./libraries/form-type.ts";
-import toast, { Toaster } from "react-hot-toast";
 
 function generateMockToken(length = 32) {
     const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
@@ -97,7 +97,7 @@ export default function LoginPage() {
                     {isSubmitting ? "Logging in..." : "Login"}
                 </button>
             </form>
-            <Toaster position="bottom-right" />
+            <Toaster position="bottom-right"/>
         </div>
     );
 }
