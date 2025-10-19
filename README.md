@@ -2,7 +2,7 @@
 React Dashboard Test Project
 ## 📌 Project Overview
 
-This is a **test dashboard project** with user pages and logs, designed to practice modern React architecture and popular libraries.  
+This is a **test dashboard project** with user pages and logs. 
 The project aims to demonstrate:
 
 - **Global state management** with Zustand
